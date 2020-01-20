@@ -122,7 +122,7 @@ camera.onMessageArrived = onArrived(CAMERA);
 commandCenter.onMessageArrived = onArrived(COMMAND_CENTER);
 
 // a function that emulate sending of messages up to 100 message
-function emulate() {
+function simulate() {
     // the commenad center is subscriber
     subscribe(COMMAND_CENTER);
     for (let i = 0; i < 1000; i++) {
